@@ -1,0 +1,120 @@
+{
+  "file": "impedance-S001-HTC-BA_MINI_8ch.csv",
+  "subject": "sub-1",
+  "task": "impedance",
+  "session": "S001",
+  "run": "001",
+  "vr_set": "HTC",
+  "device": "BA_MINI_8ch",
+  "device_model": "BA_MINI",
+  "n_eeg_channels": 8,
+  "channels": {
+    "F3": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "F4": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "C3": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "C4": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "P3": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "P4": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "O1": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "O2": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "contact_F3": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_F4": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_C3": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_C4": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_P3": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_P4": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_O1": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_O2": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "Accel_x": {
+      "type": "Accel",
+      "unit": "m/s2"
+    },
+    "Accel_y": {
+      "type": "Accel",
+      "unit": "m/s2"
+    },
+    "Accel_z": {
+      "type": "Accel",
+      "unit": "m/s2"
+    },
+    "Sample": {
+      "type": "Sample",
+      "unit": "value"
+    },
+    "Streaming": {
+      "type": "misc",
+      "unit": "value"
+    },
+    "Battery": {
+      "type": "Battery",
+      "unit": "pct"
+    }
+  },
+  "time_column": {
+    "name": "time_s",
+    "unit": "s",
+    "definition": "sample index / sampling_frequency_hz"
+  },
+  "sampling_frequency_hz": 250.0,
+  "n_samples": 39000,
+  "duration_s": 156.0,
+  "sample_counter_continuous": true,
+  "n_sample_counter_gaps": 0,
+  "source_sha256": "498817cbc4aa1fa5b57c4a41c38a8eb635dbef451a612c78f1c7cc6479fbf92c",
+  "converted_by": "processing/convert_db_to_csv.py",
+  "converted_on": "2026-11-06",
+  "anonymization": [
+    "recording date/time removed",
+    "device serial and stream UUID removed",
+    "absolute host timestamps removed (time_s derived from sample index and fs)",
+    "sample counter rebased to 0"
+  ]
+}

@@ -1,0 +1,4 @@
+task,session,device,test,comparison,n,statistic,p,median_diff
+impedance,S001,BA_MINI_8ch,Friedman,NoVR vs HTC vs MetaQuest,8,2.25,0.3246524673583498,
+impedance,S001,BA_MINI_8ch,Wilcoxon,HTC vs NoVR,8,15.0,0.7421875,-10.5
+impedance,S001,BA_MINI_8ch,Wilcoxon,MetaQuest vs NoVR,8,17.0,0.9453125,-11.0

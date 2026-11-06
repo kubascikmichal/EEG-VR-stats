@@ -1,0 +1,15 @@
+# Raw, non-anonymized source databases (private)
+metadata/
+
+# Notebook / Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.out
+*.synctex.gz

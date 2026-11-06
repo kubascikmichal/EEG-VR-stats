@@ -1,0 +1,36 @@
+{
+  "notebook": "processing/impedance/impedance_over_time.ipynb",
+  "processing_date": "2026-11-06",
+  "group": "impedance-S001-BA_MINI_8ch",
+  "parameters": {
+    "WINDOWS_S": [
+      1,
+      5,
+      15,
+      30
+    ],
+    "REFERENCE_WINDOW_S": 5,
+    "EDGE_S": 10,
+    "SETTLE_TOL": 0.1
+  },
+  "sources": [
+    {
+      "file": "impedance-S001-NoVR-BA_MINI_8ch.csv",
+      "source_sha256": "2ddd4ea420a10c87fa5467077c1683473f45d6e730f25e0f26d90e26343d01cf",
+      "vr_set": "NoVR",
+      "n_eeg_channels": 8
+    },
+    {
+      "file": "impedance-S001-HTC-BA_MINI_8ch.csv",
+      "source_sha256": "498817cbc4aa1fa5b57c4a41c38a8eb635dbef451a612c78f1c7cc6479fbf92c",
+      "vr_set": "HTC",
+      "n_eeg_channels": 8
+    },
+    {
+      "file": "impedance-S001-MetaQuest-BA_MINI_8ch.csv",
+      "source_sha256": "9385d37b67fd6264d9a5ee02ffa779e250802b4c5d3fad787a27edaf3c0a5144",
+      "vr_set": "MetaQuest",
+      "n_eeg_channels": 8
+    }
+  ]
+}
