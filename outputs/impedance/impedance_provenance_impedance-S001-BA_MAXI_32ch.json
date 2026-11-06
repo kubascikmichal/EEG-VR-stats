@@ -1,0 +1,40 @@
+{
+  "notebook": "processing/impedance/impedance_over_time.ipynb",
+  "processing_date": "2026-11-06",
+  "group": "impedance-S001-BA_MAXI_32ch",
+  "parameters": {
+    "WINDOWS_S": [
+      1,
+      5,
+      15,
+      30
+    ],
+    "REFERENCE_WINDOW_S": 5,
+    "EDGE_S": 10,
+    "SETTLE_TOL": 0.1,
+    "SETTLE_ABS": 10
+  },
+  "sources": [
+    {
+      "file": "impedance-S001-NoVR-BA_MAXI_32ch.csv",
+      "source_sha256": "22f0d2a6c6c7055a990a66c3db5e6b62165d64621f7bfee1013b52156e6e5128",
+      "vr_set": "NoVR",
+      "n_eeg_channels": 32,
+      "recording_order": 1
+    },
+    {
+      "file": "impedance-S001-HTC-BA_MAXI_32ch.csv",
+      "source_sha256": "cf5d7feb21a4c9eeafe06082f8df292f21d399e37ec3d2197496898118d34096",
+      "vr_set": "HTC",
+      "n_eeg_channels": 32,
+      "recording_order": 2
+    },
+    {
+      "file": "impedance-S001-MetaQuest-BA_MAXI_32ch.csv",
+      "source_sha256": "463230fc14dcc5aa9468b675b8c563355f87d368f7bb4aec859d75d48b32114f",
+      "vr_set": "MetaQuest",
+      "n_eeg_channels": 32,
+      "recording_order": 3
+    }
+  ]
+}

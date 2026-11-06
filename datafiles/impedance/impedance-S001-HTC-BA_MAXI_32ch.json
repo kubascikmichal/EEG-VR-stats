@@ -1,0 +1,316 @@
+{
+  "file": "impedance-S001-HTC-BA_MAXI_32ch.csv",
+  "subject": "sub-1",
+  "task": "impedance",
+  "session": "S001",
+  "run": "002",
+  "vr_set": "HTC",
+  "device": "BA_MAXI_32ch",
+  "device_model": "BA_MAXI",
+  "n_eeg_channels": 32,
+  "recording_order": 2,
+  "start_offset_min": 5,
+  "recording_order_scope": "subject x session x task x device",
+  "channels": {
+    "P8": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "O2": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "P4": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "C4": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "F8": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "F4": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "Oz": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "Cz": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "Fz": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "Pz": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "F3": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "O1": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "P7": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "C3": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "P3": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "F7": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "T8": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "FC6": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "CP6": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "CP2": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "PO4": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "FC2": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "AF4": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "POz": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "AFz": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "AF3": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "FC1": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "FC5": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "T7": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "CP1": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "CP5": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "PO3": {
+      "type": "EEG",
+      "unit": "kOhm"
+    },
+    "contact_P8": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_O2": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_P4": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_C4": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_F8": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_F4": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_Oz": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_Cz": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_Fz": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_Pz": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_F3": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_O1": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_P7": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_C3": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_P3": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_F7": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_T8": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_FC6": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_CP6": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_CP2": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_PO4": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_FC2": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_AF4": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_POz": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_AFz": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_AF3": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_FC1": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_FC5": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_T7": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_CP1": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_CP5": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "contact_PO3": {
+      "type": "contact",
+      "unit": "value"
+    },
+    "Accel_x": {
+      "type": "Accel",
+      "unit": "m/s2"
+    },
+    "Accel_y": {
+      "type": "Accel",
+      "unit": "m/s2"
+    },
+    "Accel_z": {
+      "type": "Accel",
+      "unit": "m/s2"
+    },
+    "Sample": {
+      "type": "Sample",
+      "unit": "value"
+    },
+    "Streaming": {
+      "type": "misc",
+      "unit": "value"
+    },
+    "Battery": {
+      "type": "Battery",
+      "unit": "pct"
+    }
+  },
+  "time_column": {
+    "name": "time_s",
+    "unit": "s",
+    "definition": "sample index / sampling_frequency_hz"
+  },
+  "sampling_frequency_hz": 250.0,
+  "n_samples": 37600,
+  "duration_s": 150.4,
+  "sample_counter_continuous": true,
+  "n_sample_counter_gaps": 0,
+  "source_sha256": "cf5d7feb21a4c9eeafe06082f8df292f21d399e37ec3d2197496898118d34096",
+  "source_sha256_scope": ".db followed by .db-wal (if present)",
+  "converted_by": "processing/convert_db_to_csv.py",
+  "converted_on": "2026-11-06",
+  "anonymization": [
+    "recording date/time removed (only order and start offset in whole minutes kept)",
+    "device serial and stream UUID removed",
+    "absolute host timestamps removed (time_s derived from sample index and fs)",
+    "sample counter rebased to 0"
+  ]
+}

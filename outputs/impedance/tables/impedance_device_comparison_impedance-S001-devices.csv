@@ -1,0 +1,10 @@
+task,session,device,vr_set,n_common,common_channels,median_common,median_all,n_all
+impedance,S001,BA_MAXI_32ch,NoVR,8,F3 F4 C3 C4 P3 P4 O1 O2,260.0,135.0,32
+impedance,S001,BA_MAXI_32ch,HTC,8,F3 F4 C3 C4 P3 P4 O1 O2,135.5,89.5,32
+impedance,S001,BA_MAXI_32ch,MetaQuest,8,F3 F4 C3 C4 P3 P4 O1 O2,186.5,98.0,32
+impedance,S001,BA_MIDI_16ch,NoVR,8,F3 F4 C3 C4 P3 P4 O1 O2,84.5,84.5,16
+impedance,S001,BA_MIDI_16ch,HTC,8,F3 F4 C3 C4 P3 P4 O1 O2,161.0,124.5,16
+impedance,S001,BA_MIDI_16ch,MetaQuest,8,F3 F4 C3 C4 P3 P4 O1 O2,113.0,61.0,16
+impedance,S001,BA_MINI_8ch,NoVR,8,F3 F4 C3 C4 P3 P4 O1 O2,87.0,87.0,8
+impedance,S001,BA_MINI_8ch,HTC,8,F3 F4 C3 C4 P3 P4 O1 O2,83.0,83.0,8
+impedance,S001,BA_MINI_8ch,MetaQuest,8,F3 F4 C3 C4 P3 P4 O1 O2,83.0,83.0,8

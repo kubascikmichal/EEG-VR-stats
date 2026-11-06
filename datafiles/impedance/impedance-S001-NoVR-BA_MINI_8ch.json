@@ -8,6 +8,9 @@
   "device": "BA_MINI_8ch",
   "device_model": "BA_MINI",
   "n_eeg_channels": 8,
+  "recording_order": 1,
+  "start_offset_min": 0,
+  "recording_order_scope": "subject x session x task x device",
   "channels": {
     "F3": {
       "type": "EEG",
@@ -108,11 +111,12 @@
   "duration_s": 153.624,
   "sample_counter_continuous": true,
   "n_sample_counter_gaps": 0,
-  "source_sha256": "2ddd4ea420a10c87fa5467077c1683473f45d6e730f25e0f26d90e26343d01cf",
+  "source_sha256": "dd00a8f7368afce5440478cd88cc15c5906fd27c8f7da0f184d77378fa47ae73",
+  "source_sha256_scope": ".db followed by .db-wal (if present)",
   "converted_by": "processing/convert_db_to_csv.py",
   "converted_on": "2026-11-06",
   "anonymization": [
-    "recording date/time removed",
+    "recording date/time removed (only order and start offset in whole minutes kept)",
     "device serial and stream UUID removed",
     "absolute host timestamps removed (time_s derived from sample index and fs)",
     "sample counter rebased to 0"

@@ -1,0 +1,40 @@
+{
+  "notebook": "processing/impedance/impedance_over_time.ipynb",
+  "processing_date": "2026-11-06",
+  "group": "impedance-S001-BA_MIDI_16ch",
+  "parameters": {
+    "WINDOWS_S": [
+      1,
+      5,
+      15,
+      30
+    ],
+    "REFERENCE_WINDOW_S": 5,
+    "EDGE_S": 10,
+    "SETTLE_TOL": 0.1,
+    "SETTLE_ABS": 10
+  },
+  "sources": [
+    {
+      "file": "impedance-S001-NoVR-BA_MIDI_16ch.csv",
+      "source_sha256": "296a150ec39cbb5148d813c3cc5bbe3949ae7ae841c66d59e1bc12fc8348bece",
+      "vr_set": "NoVR",
+      "n_eeg_channels": 16,
+      "recording_order": 1
+    },
+    {
+      "file": "impedance-S001-HTC-BA_MIDI_16ch.csv",
+      "source_sha256": "f13b8db3743385875ed85c586fabe03c956275bff87ebde5d56de987f0be705d",
+      "vr_set": "HTC",
+      "n_eeg_channels": 16,
+      "recording_order": 3
+    },
+    {
+      "file": "impedance-S001-MetaQuest-BA_MIDI_16ch.csv",
+      "source_sha256": "aceb8e9ebcf21ed9b6be77c8fcf1d1efefd9fce741da05570d48ffe8d5d8ff40",
+      "vr_set": "MetaQuest",
+      "n_eeg_channels": 16,
+      "recording_order": 2
+    }
+  ]
+}
