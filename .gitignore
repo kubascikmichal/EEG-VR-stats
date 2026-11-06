@@ -13,3 +13,6 @@ __pycache__/
 *.fdb_latexmk
 *.out
 *.synctex.gz
+
+# Claude project prompts (local only)
+prompts/
