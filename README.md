@@ -8,7 +8,6 @@ and Meta Quest.
 - `datafiles/` — raw CSV recordings.
 - `processing/` — Jupyter notebooks that process and analyse recordings.
 - `outputs/` — generated figures, tables, article content, and TeX build files.
-- `prompts/` — prompts and instructions for analysis work.
 
 ## Input filename convention
 
@@ -24,4 +23,5 @@ metadata to keep results traceable to the task, session, VR set, device, and
 channel count.
 
 Raw files in `datafiles/` must not be modified. Generated analysis results and
-publication files belong in `outputs/`.
+publication files belong in `outputs/`. Each project folder includes a README
+describing its purpose.
